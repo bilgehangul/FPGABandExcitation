@@ -1,0 +1,85 @@
+2025-02-12T14:17:59.757838600255-14:17:59 **** Build of configuration Debug for project ZmodDAC1411_Demo_Baremetal ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/ZmodDAC1411/zmoddac1411.cpp'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/ZmodDAC1411/zmoddac1411.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/ZmodDAC1411/zmoddac1411.d" -MT"src/zmodlib/ZmodDAC1411/zmoddac1411.o" -o "src/zmodlib/ZmodDAC1411/zmoddac1411.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/ZmodDAC1411/zmoddac1411.cpp"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/ZmodDAC1411/zmoddac1411.cpp'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/ZmodADC1410/zmodadc1410.cpp'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/ZmodADC1410/zmodadc1410.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/ZmodADC1410/zmodadc1410.d" -MT"src/zmodlib/ZmodADC1410/zmodadc1410.o" -o "src/zmodlib/ZmodADC1410/zmodadc1410.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/ZmodADC1410/zmodadc1410.cpp"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/ZmodADC1410/zmodadc1410.cpp'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/reg/reg.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/linux/reg/reg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/linux/reg/reg.d" -MT"src/zmodlib/Zmod/linux/reg/reg.o" -o "src/zmodlib/Zmod/linux/reg/reg.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/reg/reg.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/reg/reg.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/flash/flash.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/linux/flash/flash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/linux/flash/flash.d" -MT"src/zmodlib/Zmod/linux/flash/flash.o" -o "src/zmodlib/Zmod/linux/flash/flash.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/flash/flash.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/flash/flash.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/dma/dma.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/linux/dma/dma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/linux/dma/dma.d" -MT"src/zmodlib/Zmod/linux/dma/dma.o" -o "src/zmodlib/Zmod/linux/dma/dma.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/dma/dma.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/dma/dma.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/dma/libaxidma.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/linux/dma/libaxidma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/linux/dma/libaxidma.d" -MT"src/zmodlib/Zmod/linux/dma/libaxidma.o" -o "src/zmodlib/Zmod/linux/dma/libaxidma.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/dma/libaxidma.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/dma/libaxidma.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/utils.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/linux/utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/linux/utils.d" -MT"src/zmodlib/Zmod/linux/utils.o" -o "src/zmodlib/Zmod/linux/utils.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/utils.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/linux/utils.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/reg/reg.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/baremetal/reg/reg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/baremetal/reg/reg.d" -MT"src/zmodlib/Zmod/baremetal/reg/reg.o" -o "src/zmodlib/Zmod/baremetal/reg/reg.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/reg/reg.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/reg/reg.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/intc/intc.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/baremetal/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/baremetal/intc/intc.d" -MT"src/zmodlib/Zmod/baremetal/intc/intc.o" -o "src/zmodlib/Zmod/baremetal/intc/intc.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/intc/intc.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/intc/intc.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/flash/flash.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/baremetal/flash/flash.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/baremetal/flash/flash.d" -MT"src/zmodlib/Zmod/baremetal/flash/flash.o" -o "src/zmodlib/Zmod/baremetal/flash/flash.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/flash/flash.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/flash/flash.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/dma/dma.c'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/baremetal/dma/dma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/baremetal/dma/dma.d" -MT"src/zmodlib/Zmod/baremetal/dma/dma.o" -o "src/zmodlib/Zmod/baremetal/dma/dma.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/dma/dma.c"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/baremetal/dma/dma.c'
+000-' '
+000-'Building file: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/zmod.cpp'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/zmodlib/Zmod/zmod.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/zmodlib/Zmod/zmod.d" -MT"src/zmodlib/Zmod/zmod.o" -o "src/zmodlib/Zmod/zmod.o" "C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/zmod.cpp"
+000-'Finished building: C:/drexel/Eclypse-Z7-SW/zmodlib/Zmod/zmod.cpp'
+000-' '
+000-'Building file: ../src/main.cpp'
+000-'Invoking: ARM v7 g++ compiler'
+000-arm-none-eabi-g++ -Wall -O0 -g3 -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/Zmod" -I"C:\drexel\Eclypse-Z7-SW\ZmodDAC1411_Demo_Baremetal\Debug/../../zmodlib/ZmodDAC1411" -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+000-'Finished building: ../src/main.cpp'
+000-' '
+000-'Building target: ZmodDAC1411_Demo_Baremetal.elf'
+000-'Invoking: ARM v7 g++ linker'
+000-arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/sw/design_1_wrapper_platform_0_1/ZmodDAC1411_Demo_Baremetal_bsp_domain/bsplib/lib -o "ZmodDAC1411_Demo_Baremetal.elf"  ./src/zmodlib/ZmodDAC1411/zmoddac1411.o  ./src/zmodlib/ZmodADC1410/zmodadc1410.o  ./src/zmodlib/Zmod/linux/reg/reg.o  ./src/zmodlib/Zmod/linux/flash/flash.o  ./src/zmodlib/Zmod/linux/dma/dma.o ./src/zmodlib/Zmod/linux/dma/libaxidma.o  ./src/zmodlib/Zmod/linux/utils.o  ./src/zmodlib/Zmod/baremetal/reg/reg.o  ./src/zmodlib/Zmod/baremetal/intc/intc.o  ./src/zmodlib/Zmod/baremetal/flash/flash.o  ./src/zmodlib/Zmod/baremetal/dma/dma.o  ./src/zmodlib/Zmod/zmod.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+000-'Finished building target: ZmodDAC1411_Demo_Baremetal.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size ZmodDAC1411_Demo_Baremetal.elf  |tee "ZmodDAC1411_Demo_Baremetal.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 103247	   3480	  22756	 129483	  1f9cb	ZmodDAC1411_Demo_Baremetal.elf
+000-'Finished building: ZmodDAC1411_Demo_Baremetal.elf.size'
+000-' '
+00255-
+14:18:12 Build Finished (took 12s.441ms)
+

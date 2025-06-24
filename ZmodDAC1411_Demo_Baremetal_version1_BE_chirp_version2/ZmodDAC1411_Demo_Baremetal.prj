@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ZmodDAC1411_Demo_Baremetal" location="C:/drexel/Eclypse-Z7-SW/ZmodDAC1411_Demo_Baremetal" platform="C:/drexel/Eclypse-Z7-SW/design_1_wrapper_platform_0_1/export/design_1_wrapper_platform_0_1/design_1_wrapper_platform_0_1.xpfm" platformUID="xilinx.com::design_1_wrapper:1.0(custom)" systemProject="ZmodDAC1411_Demo_Baremetal_system" sysConfig="design_1_wrapper_platform_0_1" runtime="C/C++" cpu="ZmodDAC1411_Demo_Baremetal_bsp_domain" cpuInstance="ps7_cortexa9_0" os="standalone" language="CPP">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.2136112750">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1564132517">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+</sdkproject:SdkProject>
